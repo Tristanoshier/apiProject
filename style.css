@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+body {
+    margin: 0;
+    background: url(../apiProject/assets/mars.jpeg);
+    background-size: cover;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    color: rgb(226, 226, 226);
+    font-size: 50px;
+    font-weight: 900 !important;
+    margin: 20px;
+}
+
+.info {
+    color: rgb(226, 226, 226);
+    font-size: 18px;
+    width: 630px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.temp-data {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(226, 226, 226);
+    width: 250px;
+    height: 200px;
+    margin-right: 10px;
+ 
+}
+
+#avg-temp-fahrenheit {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 5%;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgb(226, 226, 226); 
+}
+
+#max-temp-fahrenheit {
+    text-align: center;
+}
+
+#min-temp-fahrenheit {
+    text-align: center;
+}
+
+.date-data {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(226, 226, 226);
+    width: 250px;
+    height: 200px;
+}
+
+#current-sol {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 20%;
+    text-align: center;
+}
+
+#current-date {
+    text-align: center;
+}
+
+
+
