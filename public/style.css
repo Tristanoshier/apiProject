@@ -2,8 +2,7 @@
 
 body {
     margin: 0;
-    background: url(../apiProject/assets/mars.jpeg);
-    background-size: cover;
+    background: url(./assets/mars.jpeg);
     background-position: 25% 25%;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +30,6 @@ body {
     width: 250px;
     height: 200px;
     margin-right: 10px;
- 
 }
 
 #avg-temp-fahrenheit {
@@ -68,6 +66,38 @@ body {
 #current-date {
     text-align: center;
 }
+
+
+@media (max-width: 576px) { 
+    body {
+        background: url(./assets/mars.jpeg) bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .info {
+        margin-left: 5px;
+    }
+    #avg-temp-fahrenheit {
+        font-size: 19px;
+    }
+
+    #max-temp-fahrenheit {
+        font-size: 16px;
+    }
+    
+    #min-temp-fahrenheit {
+        font-size: 16px;
+    }
+    
+}
+    
 
 
 
